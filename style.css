@@ -1,0 +1,17 @@
+/* UTILITIES */
+
+body {
+	font: Casteller 
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: all;
+	padding: 20;
+}
+
+.menu {
+	display: flex;
+	grid-gap: 1em;
+	font-size: 18px;
+}

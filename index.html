@@ -1,24 +1,53 @@
 <!Doctype html>
-<html>
+<html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style.css">
         <title>Damola's space</title>
     </head>
     <body>
-        <section>
-            <h1>Welcome to my abode</h1>
-            <p>Hi, i'm damola. an aspiring web developer</p>
-            <P>This website is to show my personal evolution as a developer</P>
-        </section>
-        <section>
-            <p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Python</li>
-            </ul>
-        </section>
-        <p>Professionally, this are my goals.</p>
+        <main>
+            <!-- Adding a navigation bar -->
+            <nav>
+                <!-- LOGO -->
+                <div class="logo">MUO</div>
+
+                <!-- NAVIGATION MENU -->
+                <ul class="nav-links">
+                    <!-- USING CHECKBOX HACK -->
+                    <input type="checkbox" id="checkbox_toggle">
+                    <label for="checkbox_toggle">&#9776;</label>
+                </ul>
+                <!-- NAVIGATION MENUS -->
+                <div>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li class="services">
+                        <a href="/">Services</a>
+                        <!-- DROPDOWN MENU -->
+                        <ul class="dropdown">
+                            <li><a href="/">Dropdown 1</a></li>
+                            <li><a href="/">Dropdown 2</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </nav>
+            <section>
+                <h1>Welcome to my abode</h1>
+                <p>Hi, i'm damola. an aspiring web developer</p>
+                <P>This website is to show my personal evolution as a developer</P>
+            </section>
+            <section>
+                <p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                    </ul>
+            </section>
+            <p>Professionally, this are my goals.</p>
+        </main>
     </body>
 </html>
